@@ -1,71 +1,71 @@
 <h1>
-  <span>姓名</span>
+  <span>鞠子健</span>
   <ul>
-    <li><span>电话</span>xxx xxxx xxxx</li>
-    <li><span>QQ</span>xxxxxxxxxxxxx</li>
-    <li><span>邮箱</span><a href="mailto:xxxxxxxx@foxmail.com">xxxxxxxx@foxmail.com</a></li>
-    <li><span>Github</span><a>github.com/wannaxiao</a></li>
+    <li><span>性别</span>男</li>
+    <li><span>年龄</span>23</li>
+    <li><span>电话</span>18846118570</li>
+    <li><span>邮箱</span><a href="mailto:zijianju98@gmail.com">zijianju98@gmail.com</a></li>
   </ul>
 </h1>
 
+## 求职意向
+- **后端开发工程师**
+
 ## 教育经历
 
-硕士 xxxxxxxx大学 软件工程 <span class="right">2014.09 - 2017.06</span><br>
-本科 xxxxxxxxxxxx大学 电子信息工程 <span class="right">2010.09 - 2014.06</span>
+硕士 墨尔本大学 软件工程（QS: top50; GPA: H1, top 10%） <span class="right">2019.03 - 2021.12</span><br>
+本科 哈尔滨工业大学 材料科学与工程（985高校；GPA: 83, top 30%） <span class="right">2014.09 - 2018.06</span>
 
 ## 工作经历
 
-xxxxxxxxxxxx公司(初创)-xxxxx部门 xxxxxxx岗位<span class="right">2016.07 - 至今</span><br>
-xxxxxxxxxxxx公司(上市)-xxxxxxxxx部门 xxxxxxx岗位<span class="right">2014.07 - 2016.07</span>
-
-- 获得荣誉：**xxxxxxxxxxxxxxxxxxxxxx**
+字节跳动 - 抖音电商运营赋能 - 后端开发 实习<span class="right">2021.01 - 至今</span><br>
 
 ## 项目经验
 
-### 项目一名称<span class="role">:&nbsp;职责</span><span class="right">2018.01 - 至今</span>
+### 多直播间盯盘功能<span class="role">&nbsp;后端开发</span><span class="right">字节跳动，2021.04 - 2021.05</span>
 
-- 技术栈：**XXX Xxxx**
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
-
----
-
-### 项目二名称<span class="role">:&nbsp;核心开发者</span><span class="right">2017.01 - 2018.01</span>
-
-- 技术栈：**XXX Xxxx + Xxx Xxxxxx + Xxxxxx**
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
+- 技术栈：GoLang, 微服务框架，MySQL；
+- 项目描述：针对活动期间直播间扎堆集中开播的场景下，辅助运营同时、高效地盯盘多个直播间；
+- 项目职责：负责直播间列表页及运营人员关注达人列表管理功能的开发；梳理并对接各项交易指标的数据提供方；
+- 项目收获：收获了和多业务团队对接的经验及需要注意的点，例如接口的承载能力，容错等。
 
 ---
 
-### 项目三名称<span class="role">:&nbsp;项目负责人</span><span class="right">2016.01 - 2017.01</span>
+### GMV预估功能<span class="role">&nbsp; 后端开发</span><span class="right">字节跳动，2021.03 - 2021.04</span>
 
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
+- 技术栈：GoLang, 微服务框架，MySQL, 消息队列；
+- 项目描述：在活动大促期间的直播间招商过程中，辅助行业运营预估达成直播GMV目标需要的流量和货值，进而优化广告预算投入和货品结构；
+- 项目职责：负责网关层复杂业务逻辑的开发，包括使用MySQL对预估数据进行每日预热，使用消息队列监听提报数据等；同时负责协调多个服务提供方，并对项目进度进行把控；
+- 项目收获：理解了常见Web应用的架构并独立实现；提升了复杂业务的解构能力及项目管理能力、沟通协调能力等。
+
+
+## 课程项目
+
+### 在线考试系统<span class="role">&nbsp;协作开发</span><span class="right">墨尔本大学，2020.07 - 2020.11</span>
+
+- 技术栈：Java Servlet, JSP, MySQL；
+- 项目描述：完成在线考试系统的设计及开发 功能包括创建考试，进行考试，批改试卷等；
+- 项目职责：实现多项功能包括创建考试，进行考试，批改试卷等；应用悲观读写锁处理并发情况；
+- 项目收获：学习了OOP的设计思想，理解了锁的机制和应用场景，提升了对业务的抽象能力。
 
 ---
 
-### 项目四名称<span class="role">:&nbsp;项目维护</span><span class="right">2015.01 - 2016.01</span>
+### 自制棋类游戏开发AI<span class="role">&nbsp;独立完成</span><span class="right">墨尔本大学，2020.03 - 2020.07</span>
 
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
+- 技术栈：Python, 极小值极大值算法；
+- 项目描述：为一款自制棋类游戏开发AI玩家；
+- 项目职责：设计状态评估方程，采用极大极小值算法计算最优策略；使用Alpha-Beta剪枝等技术提高运算效率等；
+- 项目收获：基于原始分支系数120的条件，平均5秒内算出6步内的最优解；在课堂对抗排名top10%。
 
 ## 技能描述
 
-- 了解 XXXXXXXXXXXXXXXXXXX，**掌握 XXXXXXXXXXXXX**
-- 熟悉 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-- 了解 XXXXX，XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-- 熟悉 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-- 掌握 XXXXXXXXXX，XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-- XXXXXXXXXXXXXXXXXXXX，XXXXXXXXXXXXX
+- 掌握 计算机网络、数据结构、算法、操作系统等基础知识；
+- 熟悉 GoLang后端开发，微服务框架的使用；
+- 熟悉 MySQL的使用，索引设计，常用优化手段等；
+- 熟悉 Java语言相关基础知识；了解Java Web应用的开发；
+- 了解 Web架构中其他常用技术栈如Redis，消息队列等。
 
 ## 自我评价
 
-- XXXXXXXXXXXXXXXXXXXXXXXXXXX,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+- 学习能力强，对技术抱有热忱，比较有业务sense；
+- 项目管理能力，沟通协调能力较强。
