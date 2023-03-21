@@ -17,8 +17,8 @@
     "resume"
   ],
   "scripts": {
-    "dev": "vuepress dev example",
-    "build": "vuepress build example",
+    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev example",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build exampl",
     "release": "sh scripts/release.sh"
   },
   "devDependencies": {
