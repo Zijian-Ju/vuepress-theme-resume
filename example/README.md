@@ -11,65 +11,96 @@
 ## 求职意向
 - **软件开发工程师**
 
+## 技能概述
+
+- 1.5 年在Azure 核心云计算产品团队开发基于Kubernetes的云计算PaaS产品经验；
+
+- 熟悉云原生产品的架构设计，开发及部署流程，有大规模集群维护项目的经验；
+
+- 熟悉Go、C#/.NET的系统设计和应用层开发；
+
+- 熟悉Azure上的各种云服务的使用及架构设计，如App Service、Storage、KeyVault、CosmosDB 等；
+
+- 熟悉Kubernetes扩展开发以及Helm、Envoy、Keda、controller-gen等开源Kubernetes生态系统；
+
+- 熟悉操作系统、数据结构与算法、面向对象设计基础等计算机科学基础知识；
+
+- 良好的沟通和项目管理能力；
+
+- 良好的英语口语交流及书面交流能力。
 
 ## 工作经历
 
-微软 - Azure ContainerApps <span class="right">软件开发 ， 全职， 2022.01 - 至今</span><br>
+<span style="font-family:Times New Roman, Times, serif"> 
 
-字节跳动 - 抖音电商运营赋能 <span class="right">2021.01 - 至今</span><br>
+**微软** - Azure Container Apps Team  <span class="right">软件开发工程师, 全职, 2022.01 - 至今</span><br>
+
+- 负责微软云（Azure）新一代基于Kubernetes 的云计算PaaS产品的开发。完整参与了项目从开发，上线，迭代的流程。参与过的项目包括服务的部署及管理，基础设施的改进及优化，集群的管理及功能开发。
+
+</span>
+
+<span style="font-family:Times New Roman, Times, serif"> 
+
+**字节跳动** - 抖音电商 <span class="right">软件开发工程师, 实习, 2021.01 - 2021.08</span><br>
+
+</span>
 
 ## 教育经历
 
-硕士 墨尔本大学 软件工程（QS: top50; GPA: H1, top 10%） <span class="right">2019.03 - 2021.12</span><br>
-本科 哈尔滨工业大学 材料科学与工程（985高校；GPA: 83, top 30%） <span class="right">2014.09 - 2018.06</span>
+<span style="font-family:Times New Roman, Times, serif">
+ 
+**硕士 软件工程**, *墨尔本大学（University Of Melbourne）* <span class="right">2019.03 - 2021.12</span><br>
+
+**本科 材料科学与工程**, *哈尔滨工业大学*  <span class="right">2014.09 - 2018.06</span>
+ 
+ </span>
+
 
 
 ## 项目经验
 
-### 多直播间盯盘功能<span class="role">&nbsp;后端开发</span><span class="right">字节跳动，2021.04 - 2021.05</span>
+### <span style="font-family:Times New Roman, Times, serif"> ContainerApps Kubernetes控制器内存优化</span><span class="right"><span style="font-family:Times New Roman, Times, serif">Microsoft, 2023.01 - 2023.03</span></span>
 
-- 技术栈：GoLang, 微服务框架，MySQL；
-- 项目描述：针对活动期间直播间扎堆集中开播的场景下，辅助运营同时、高效地盯盘多个直播间；
-- 项目职责：负责直播间列表页及运营人员关注达人列表管理功能的开发；梳理并对接各项交易指标的数据提供方；
-- 项目收获：收获了和多业务团队对接的经验及需要注意的点，例如接口的承载能力，容错等。
+<span style="font-family: Times New Roman, Times, serif">
 
----
+- **项目描述**: 通过将不活跃的ContainerApp Revision移至新的Kubernetes Custom Resource Definition(CRD)，并在Kubernetes上对该CRD进行垃圾回收，优化了Kubernetes中ContainerApps控制器的内存使用; 
 
-### GMV预估功能<span class="role">&nbsp; 后端开发</span><span class="right">字节跳动，2021.03 - 2021.04</span>
+- **项目职责**: 通过研究及实践探索内存优化的潜在解决方案；进行端到端测试以确保质量和可靠性; 
 
-- 技术栈：GoLang, 微服务框架，MySQL, 消息队列；
-- 项目描述：在活动大促期间的直播间招商过程中，辅助行业运营预估达成直播GMV目标需要的流量和货值，进而优化广告预算投入和货品结构；
-- 项目职责：负责网关层复杂业务逻辑的开发，包括使用MySQL对预估数据进行每日预热，使用消息队列监听提报数据等；同时负责协调多个服务提供方，并对项目进度进行把控；
-- 项目收获：理解了常见Web应用的架构并独立实现；提升了复杂业务的解构能力及项目管理能力、沟通协调能力等。
+- **关键成果**: 当ContainerApp Revision数量超过1000 时，减少了约75%的内存使用；在节省资源的同时使得ContainerApps 产品的Kubernetes 基础设施更加稳定。
 
-
-## 课程项目
-
-### 在线考试系统<span class="role">&nbsp;协作开发</span><span class="right">墨尔本大学，2020.07 - 2020.11</span>
-
-- 技术栈：Java Servlet, JSP, MySQL；
-- 项目描述：完成在线考试系统的设计及开发 功能包括创建考试，进行考试，批改试卷等；
-- 项目职责：实现多项功能包括创建考试，进行考试，批改试卷等；应用悲观读写锁处理并发情况；
-- 项目收获：学习了OOP的设计思想，理解了锁的机制和应用场景，提升了对业务的抽象能力。
+</span>
 
 ---
 
-### 自制棋类游戏开发AI<span class="role">&nbsp;独立完成</span><span class="right">墨尔本大学，2020.03 - 2020.07</span>
+### <span style="font-family:Times New Roman, Times, serif">ContainerApps 大规模事故的标准化恢复系统</span><span class="right"><span style="font-family:Times New Roman, Times, serif">Microsoft, 2022.09- 2022.11 </span></span>
 
-- 技术栈：Python, 极小值极大值算法；
-- 项目描述：为一款自制棋类游戏开发AI玩家；
-- 项目职责：设计状态评估方程，采用极大极小值算法计算最优策略；使用Alpha-Beta剪枝等技术提高运算效率等；
-- 项目收获：基于原始分支系数120的条件，平均5秒内算出6步内的最优解；在课堂对抗排名top10%。
+<span style="font-family: Times New Roman, Times, serif">
 
-## 技能描述
+- **项目描述**: 设计并实现一个可靠并且可扩展的标准化事故恢复系统及发布流程，以便团队能够更快、更安全地从大规模的集群节点级事故恢复;
 
-- 掌握 计算机网络、数据结构、算法、操作系统等基础知识；
-- 熟悉 GoLang后端开发，微服务框架的使用；
-- 熟悉 MySQL的使用，索引设计，常用优化手段等；
-- 熟悉 Java语言相关基础知识；了解Java Web应用的开发；
-- 了解 Web架构中其他常用技术栈如Redis，消息队列等。
+- **项目职责**: 实现了一个装载于Kubernetes 各节点的应用；该应用可以通过 pull-mode定期从对应的Azure Storage 中拉取修复任务, 并设计了该类修复任务打包及发布的流水线; 
+
+- **关键成果**: 在使得整个流程更可靠，更方便测试校验的同时减少了80% 从全球集群节点级事故中恢复的时间。
+
+</span>
+
+---
+
+### <span style="font-family:Times New Roman, Times, serif">ContainerApps用户资源配额改进</span><span class="right"><span style="font-family:Times New Roman, Times, serif">Microsoft, 2022.07 - 2022.08  </span></span>
+
+<span style="font-family: Times New Roman, Times, serif">
+
+- **项目描述**: 设计并实施针对潜在存在加密货币挖矿行为，带有欺诈性质目的客户的检测、防范和处理解决方案； 
+
+- **项目职责**: 通过优化警报系统改进了对欺诈行为的检测；将产品与Azure上的声誉评分系统集成，并应用定制的配额限制来防止欺诈；实现了挂起和释放被欺诈客户占用的计算资源的脚本； 
+
+- **主要成果**: 减少了 70% 来自于欺诈行为的损失，提升了50% 欺诈行为的检测时间并大大提升了检测的准确率，避免了因欺诈行为带来的大规模资源占用而导致的事故。 
+
+</span>
+
+
 
 ## 自我评价
 
-- 学习能力强，对技术抱有热忱，比较有业务sense；
-- 项目管理能力，沟通协调能力较强。
+- 学习能力强，自驱，有责任心
