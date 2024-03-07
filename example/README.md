@@ -1,71 +1,111 @@
-<h1>
-  <span>姓名</span>
+<h1 style="font-family:Times New Roman, Times, serif">
+  <span>Zijian Ju</span>
   <ul>
-    <li><span>电话</span>xxx xxxx xxxx</li>
-    <li><span>QQ</span>xxxxxxxxxxxxx</li>
-    <li><span>邮箱</span><a href="mailto:xxxxxxxx@foxmail.com">xxxxxxxx@foxmail.com</a></li>
-    <li><span>Github</span><a>github.com/wannaxiao</a></li>
+    <li><span>Age</span>24</li>
+    <li><span>Gender</span>Male</li>
+    <li><span>Email</span><a href="mailto:zijianju98@gmail.com">zijianju98@gmail.com</a></li>
+    <li><span>Mobile</span>+86 18846118570</li>
   </ul>
 </h1>
 
-## 教育经历
 
-硕士 xxxxxxxx大学 软件工程 <span class="right">2014.09 - 2017.06</span><br>
-本科 xxxxxxxxxxxx大学 电子信息工程 <span class="right">2010.09 - 2014.06</span>
+## <span style="font-family:Times New Roman, Times, serif">Career Objective</span>
+- **<span style="font-family:Times New Roman, Times, serif">Software Engineer (Backend)</span>**
 
-## 工作经历
+## <span style="font-family:Times New Roman, Times, serif">Skills Summary</span>
 
-xxxxxxxxxxxx公司(初创)-xxxxx部门 xxxxxxx岗位<span class="right">2016.07 - 至今</span><br>
-xxxxxxxxxxxx公司(上市)-xxxxxxxxx部门 xxxxxxx岗位<span class="right">2014.07 - 2016.07</span>
+<span style="font-family:Times New Roman, Times, serif">
 
-- 获得荣誉：**xxxxxxxxxxxxxxxxxxxxxx**
+- 1-year experience in developing Kubernetes-based cloud compute PaaS products on Azure;
 
-## 项目经验
+- Familiar with system design and server-side development in Go, C#/.NET;
 
-### 项目一名称<span class="role">:&nbsp;职责</span><span class="right">2018.01 - 至今</span>
+- Familiar with cloud products on Azure such as App Service, Storage, KeyVault, CosmosDB; 
 
-- 技术栈：**XXX Xxxx**
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
+- Familiar with Kubernetes extension development and open-source Kubernetes ecosystem such as Helm, Envoy, Keda, controller-gen;
+
+- Concrete foundations in Computer Systems, Data Structure and Algorithms, OOP design; 
+
+- Great soft skills in communication and project management; 
+  
+- Workable English for verbal and written communication. 
+
+</span>
+
+## <span style="font-family:Times New Roman, Times, serif">Working Experience</span>
+
+<span style="font-family:Times New Roman, Times, serif"> 
+
+**Microsoft** - Azure Container Apps Team  <span class="right">Software Engineer, Full Time, 2022.01 - Now</span><br>
+
+- Backend deployment of Container Apps, the new generation serverless PaaS service on Azure built on top of Kubernetes; Contributed to the product from the preview to Genera Available. Responsible for the DevOps, feature implementation and infrastructure improvements.
+
+</span>
+
+<span style="font-family:Times New Roman, Times, serif"> 
+
+**ByteDance Ltd** - TikTok E-Commerce Department. <span class="right">Software Engineer, Internship, 2021.01 - 2021.08</span><br>
+
+</span>
+
+## <span style="font-family:Times New Roman, Times, serif"> Education</span>
+
+<span style="font-family:Times New Roman, Times, serif">
+ 
+**Master of Software Engineering**, *University Of Melbourne* <span class="right">2019.03 - 2021.12</span><br>
+
+**Bachelor of Material Science and Engineering**, *Harbin Institute of Technology*  <span class="right">2014.09 - 2018.06</span>
+ 
+ </span>
+
+## <span style="font-family:Times New Roman, Times, serif">Project Experience</span>
+
+### <span style="font-family:Times New Roman, Times, serif"> ContainerApps Data Plane Memory Optimization</span><span class="right"><span style="font-family:Times New Roman, Times, serif">Microsoft, 2023.01 - 2023.03</span></span>
+
+<span style="font-family: Times New Roman, Times, serif">
+
+- **Project Description**: Optimized memory usage of the ContainerApps controller in Kubernetes infrastructure by moving inactive ContainerApp revisions to a new Custom Resource Definition and applying garbage collection for the Custom Resources on Kubernetes; 
+
+- **Responsibilities**: Conducted research to identify potential solutions for memory optimization, and implemented the solution; Conducted end-to-end testing to ensure quality and reliability; 
+
+- **Key Result**: Reduced memory usage of the Container App controller by approximately 75% when the number of revisions exceeded 1000; The implementation also contributed to a more stable Kubernetes infrastructure for ContainerApps. 
+
+</span>
 
 ---
 
-### 项目二名称<span class="role">:&nbsp;核心开发者</span><span class="right">2017.01 - 2018.01</span>
+### <span style="font-family:Times New Roman, Times, serif">ContainerApps Large-Scale Incident Recovery System</span><span class="right"><span style="font-family:Times New Roman, Times, serif">Microsoft, 2022.09- 2022.11 </span></span>
 
-- 技术栈：**XXX Xxxx + Xxx Xxxxxx + Xxxxxx**
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
+<span style="font-family: Times New Roman, Times, serif">
 
----
+- **Project Description**: Designed and implemented a reliable and extendable procedure to allow the team to mitigate large-scale, node-level incidents faster and more standardized; 
 
-### 项目三名称<span class="role">:&nbsp;项目负责人</span><span class="right">2016.01 - 2017.01</span>
+- **Responsibilities**: Implemented a pull-mode application installed on the Kubernetes node, which can periodically pull remediation tasks from cloud storage, and designed the pipeline to distribute the remediation tasks following a standardized procedure; 
 
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
+- **Key Result**: Reduced 80% time to recover from node-level incidents and built a standardized recovery procedure for testing and releasing
+
+</span>
 
 ---
+---
 
-### 项目四名称<span class="role">:&nbsp;项目维护</span><span class="right">2015.01 - 2016.01</span>
+### <span style="font-family:Times New Roman, Times, serif">ContainerApps Quota Restriction</span><span class="right"><span style="font-family:Times New Roman, Times, serif">Microsoft, 2022.07 - 2022.08  </span></span>
 
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。
+<span style="font-family: Times New Roman, Times, serif">
 
-## 技能描述
+- **Project Description**: Designed and implemented solutions to enforce the detection, prevention and treatment for the fraud customers who potentially have crypto mining behavior; 
 
-- 了解 XXXXXXXXXXXXXXXXXXX，**掌握 XXXXXXXXXXXXX**
-- 熟悉 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-- 了解 XXXXX，XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-- 熟悉 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-- 掌握 XXXXXXXXXX，XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-- XXXXXXXXXXXXXXXXXXXX，XXXXXXXXXXXXX
+- **Responsibilities**: Improved the fraud behavior detection by optimizing the alerting system; Integrated the product with the Reputation Score System on Azure and apply customized quota restrictions to enforce fraud prevention; Implemented the scripts to suspend and release the compute resources occupied by the fraud; 
 
-## 自我评价
+- **Key Result**: Reduced approximately 70% loss coming from fraud and eliminated the incidents caused by illegal resource occupation. 
 
-- XXXXXXXXXXXXXXXXXXXXXXXXXXX,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+</span>
+ 
+
+## <span style="font-family:Times New Roman, Times, serif"> Self Evaluation </span>
+
+<span style="font-family:Times New Roman, Times, serif">
+
+- Self-motivated, growth mindset, strong ownership of work.
+
+</span>
