@@ -89,29 +89,29 @@
 
 --- 
 
-### <span style="font-family:Times New Roman, Times, serif"> Release Manager of Azure ContainerApps</span><span class="right"><span style="font-family:Times New Roman, Times, serif">Microsoft, 2022.07 - 2023.07</span></span>
+### <span style="font-family:Times New Roman, Times, serif"> ContainerApps Data Plane Memory Optimization</span><span class="right"><span style="font-family:Times New Roman, Times, serif">Microsoft, 2023.01 - 2023.03</span></span>
 
 <span style="font-family: Times New Roman, Times, serif">
 
-- **Project Description**: Managed the complex release process of the product, which involved orchestrating the deployment of over 40 Azure resources and hundreds AAD roles in a single region plus rolling out the service to over 20 regions with difference restrictions;
+- **Project Description**: Optimized memory usage of the ContainerApps controller in Kubernetes infrastructure by moving inactive ContainerApp revisions to a new Custom Resource Definition and applying garbage collection for the Custom Resources on Kubernetes; 
 
-- **Responsibilities**:  Optimizing release procedure by writing scripts and Azure Resource Manager templates. Adjusting the release pipelines to align with different restrictions over Azure regions to ensure a reliable and smooth release process; Monitoring and making decisions with the release process while online issues occur to minimize the global impact;
+- **Responsibilities**: Conducted research to identify potential solutions for memory optimization, and implemented the solution; Conducted end-to-end testing to ensure quality and reliability; 
 
-- **Key Result**: Onboarding the service over 20+ Azure Regions without online incidents; Identity over 30 release issues which avoided hundreds of enterprise customers being impacted.
+- **Key Result**: Reduced memory usage of the Container App controller by approximately 75% when the number of revisions exceeded 1000; The implementation also contributed to a more stable Kubernetes infrastructure for ContainerApps. 
 
 </span>
 
 ---
 
-### <span style="font-family:Times New Roman, Times, serif">ContainerApps Large-Scale Incident Recovery System</span><span class="right"><span style="font-family:Times New Roman, Times, serif">Microsoft, 2022.09- 2022.11 </span></span>
+### <span style="font-family:Times New Roman, Times, serif">ContainerApps Quota Restriction</span><span class="right"><span style="font-family:Times New Roman, Times, serif">Microsoft, 2022.07 - 2022.08  </span></span>
 
 <span style="font-family: Times New Roman, Times, serif">
 
-- **Project Description**: Designed and implemented a reliable and extendable procedure to allow the team to mitigate large-scale (thousands of clusters), node-level incidents faster and more standardized; 
+- **Project Description**: Designed and implemented solutions to enforce the detection, prevention and treatment for the fraud customers who potentially have crypto mining behavior; 
 
-- **Responsibilities**: Implementing a pull-mode application installed on the Kubernetes node, which can periodically pull remediation tasks from cloud storage, and designed the pipeline to distribute the remediation tasks following a standardized procedure; 
+- **Responsibilities**: Improved the fraud behavior detection by optimizing the alerting system; Integrated the product with the Reputation Score System on Azure and apply customized quota restrictions to enforce fraud prevention; Implemented the scripts to suspend and release the compute resources occupied by the fraud; 
 
-- **Key Result**: Reduced 80% time to recover from node-level incidents and built a standardized recovery procedure for testing and releasing.
+- **Key Result**: Reduced approximately 70% loss coming from fraud and eliminated the incidents caused by illegal resource occupation. 
 
 </span>
 
