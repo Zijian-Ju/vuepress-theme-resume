@@ -78,10 +78,9 @@
 
 <span style="font-family: Times New Roman, Times, serif">
 
-- **Project Description**: Built a centralized, all-in-one, multi-cloud resource management platform to manage the cloud resources on AWS and Alibaba Cloud. Integrated with many external services like Lark, Gitlab, Terraform to achieve full lifecycle management of cloud resources including application, deployment, resources and summary, cost report and so on;
+- **Project Description**: Deliver a centralized, multi-cloud resource management platform to manage the cloud resources on AWS and Alibaba Cloud. Provide full lifecycle management of cloud resources including authorization, application, deployment, dashboard and searching functionalities by integrating multiple external services such as Lark, Gitlab, and Terraform;
 
-
-- **Responsibilities**: Service owner of the project with the responsibilities of collecting user requirements and making technical decisions; Designed the architecture of the system and contributed to most of the code;
+- **Responsibilities**: Service owner of the project with the responsibilities of collecting user requirements and technical designs; Achieved most of the implementation of the project in Golang; Designed and implemented the CI/CD pipeline for the project;
 
 - **Key Result**: Reduce 70% of time for a normal user to apply a cloud resource; Helped the company optimize the usage of the cloud resources which saved millions of dollars over the usage of cloud resources.
 
