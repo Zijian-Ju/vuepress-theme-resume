@@ -28,7 +28,7 @@
 
 - Familiar with open-source cloud management tools such as Terraform and Komiser,
 
-- Familiar with with Kubernetes development, and open-source Kubernetes ecosystem such as Rancher, Helm, Envoy, Keda;
+- Familiar with Kubernetes development, and open-source Kubernetes ecosystem such as Rancher, Helm, Envoy, Keda;
 
 - Concrete foundations in Computer Systems, Data Structure and Algorithms, OOP design; 
   
