@@ -102,15 +102,15 @@
 
 ---
 
-### <span style="font-family:Times New Roman, Times, serif">ContainerApps Quota Restriction</span><span class="right"><span style="font-family:Times New Roman, Times, serif">Microsoft, 2022.07 - 2022.08  </span></span>
+### <span style="font-family:Times New Roman, Times, serif">ContainerApps Large-Scale Incident Recovery System</span><span class="right"><span style="font-family:Times New Roman, Times, serif">Microsoft, 2022.09- 2022.11 </span></span>
 
 <span style="font-family: Times New Roman, Times, serif">
 
-- **Project Description**: Designed and implemented solutions to enforce the detection, prevention and treatment for the fraud customers who potentially have crypto mining behavior; 
+- **Project Description**: Designed and implemented a reliable and extendable procedure to allow the team to mitigate large-scale (thousands of clusters), node-level incidents faster and more standardized; 
 
-- **Responsibilities**: Improved the fraud behavior detection by optimizing the alerting system; Integrated the product with the Reputation Score System on Azure and apply customized quota restrictions to enforce fraud prevention; Implemented the scripts to suspend and release the compute resources occupied by the fraud; 
+- **Responsibilities**: Implementing a pull-mode application installed on the Kubernetes node, which can periodically pull remediation tasks from cloud storage, and designed the pipeline to distribute the remediation tasks following a standardized procedure; 
 
-- **Key Result**: Reduced approximately 70% loss coming from fraud and eliminated the incidents caused by illegal resource occupation. 
+- **Key Result**: Reduced 80% time to recover from node-level incidents and built a standardized recovery procedure for testing and releasing.
 
 </span>
 
